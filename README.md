@@ -1,4 +1,10 @@
-# A starter webpack project for React
+# My Portfolio
+
+This is my portfolio to show my finished personal projects, group projects or things I'm currently working on.
+
+
+
+<!-- # A starter webpack project for React
 
 This is a starter project that uses webpack to transpile and bundle ES6 React code. To use, consider these steps:
 
@@ -24,5 +30,5 @@ and in the other:
 ```sh
 npm run server
 ```
-The client will be available on http://localhost:8080 and the server on http://localhost:3000. Note that you will still need to manage CORS between the two, as they are on different ports.
+The client will be available on http://localhost:8080 and the server on http://localhost:3000. Note that you will still need to manage CORS between the two, as they are on different ports. -->
 
