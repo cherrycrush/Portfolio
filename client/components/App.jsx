@@ -1,7 +1,7 @@
 import React from 'react'
 import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import Nav from './Nav'
-import Index from './Index'
+import Home from './Home'
 
 const App = () => {
   return (
@@ -9,7 +9,7 @@ const App = () => {
       <Router >
         <Route path={'/'} component={Nav} />
         <Switch>
-          <Route exact path={'/'} component={Index} />
+          <Route exact path={'/'} component={Home} />
         </Switch>
       </Router>
     </div>

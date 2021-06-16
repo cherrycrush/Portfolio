@@ -8,8 +8,9 @@
   "license": "ISC",
   "scripts": {
     "client": "webpack serve --config ./client/webpack.config.js --hot",
-    "dev": "run-p dev:client dev:server",
+    "dev": "run-p watch:sass dev:client dev:server",
     "dev:client": "npm run webpack -- --watch",
+    "watch:sass": "sass --watch server/stylesheets/index.scss:server/public/stylesheets/index.css",
     "dev:server": "nodemon server",
     "start": "node server",
     "build": "npm run webpack",
