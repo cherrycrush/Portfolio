@@ -12,9 +12,9 @@ export default class Nav extends Component {
       <div>
         <nav>
           <ul className='nav-list'>
-            <li className='nav-item'>Aaron Emerson</li>
-            <li className='nav-item'>Projects</li>
-            <li className='nav-item'>Item</li>
+            <li className='nav-item'><Link to ={'/'}>Aaron Emerson</Link></li>
+            <li className='nav-item'><Link to ={'/Projects'}>Projects</Link></li>
+            <li className='nav-item'><Link to ={'/'}>Item</Link></li>
           </ul>
         </nav>
       </div>
