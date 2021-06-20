@@ -12,9 +12,23 @@ export default class Nav extends Component {
       <div>
         <nav>
           <ul className='nav-list'>
-            <li className='nav-item'><Link to ={'/'}>Aaron Emerson</Link></li>
-            <li className='nav-item'><Link to ={'/Projects'}>Projects</Link></li>
-            <li className='nav-item'><Link to ={'/'}>Item</Link></li>
+            <li className='nav-item'
+              active={activeItem === 'Home'}
+              onClick={this.handleClick}>
+              <Link to ={'/'}>Aaron Emerson</Link>
+            </li>
+            <li
+              className='nav-item'
+              active={activeItem === 'Projects'}
+              onClick={this.handleClick}>
+              <Link to ={'/Projects'}>Projects</Link>
+            </li>
+            <li
+              className='nav-item'
+              active={activeItem === 'Home'}
+              onClick={this.handleClick}>
+              <Link to ={'/'}>Item</Link>
+            </li>
           </ul>
         </nav>
       </div>
