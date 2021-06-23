@@ -12,22 +12,20 @@ export default class Nav extends Component {
       <div>
         <nav>
           <ul className='nav-list'>
-            <li className='nav-item'
+            <li
               active={activeItem === 'Home'}
               onClick={this.handleClick}>
-              <Link to ={'/'}>Aaron Emerson</Link>
+              <Link className='nav-item' to ={'/'}>Aaron Emerson</Link>
             </li>
             <li
-              className='nav-item'
               active={activeItem === 'Projects'}
               onClick={this.handleClick}>
-              <Link to ={'/Projects'}>Projects</Link>
+              <Link className='nav-item' to ={'/Projects'}>Projects</Link>
             </li>
             <li
-              className='nav-item'
               active={activeItem === 'Home'}
               onClick={this.handleClick}>
-              <Link to ={'/'}>Item</Link>
+              <Link className='nav-item' to ={'/Contact'}>Contact</Link>
             </li>
           </ul>
         </nav>

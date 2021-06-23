@@ -3,3 +3,43 @@
 html {
   font-family: 'Fira Sans', sans-serif;
 }
+
+// Custom Variables
+
+$primary-color: #272727;
+$accent-color: #ff652f;
+$text-color: #fff;
+$half-size: 50%;
+
+// Nav styles
+
+nav {
+  max-width: $half-size;
+  margin: 0 auto;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  padding: 1rem;
+}
+
+.nav-item:hover {
+  color: $accent-color;
+  font-weight: 600;
+  background-color: $text-color;
+}
+
+// Content styles
+
+.content {
+  max-width: $half-size;
+  margin: 0 auto;
+}

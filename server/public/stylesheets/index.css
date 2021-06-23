@@ -3,4 +3,33 @@ html {
   font-family: "Fira Sans", sans-serif;
 }
 
+nav {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-item {
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  padding: 1rem;
+}
+
+.nav-item:hover {
+  color: #ff652f;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+.content {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=index.css.map */
