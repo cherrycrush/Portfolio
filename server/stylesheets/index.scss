@@ -1,21 +1,22 @@
+// Custom Variables
+
+$primary-color: #272727;
+$accent-color: #ff652f;
+$accent-color2: #0090ff;
+$text-color: #fff;
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
 
 html {
   font-family: 'Fira Sans', sans-serif;
 }
 
-// Custom Variables
-
-$primary-color: #272727;
-$accent-color: #ff652f;
-$text-color: #fff;
-$half-size: 50%;
-
 // Nav styles
 
 nav {
-  max-width: $half-size;
+  max-width: 50%;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 .nav-list {
@@ -24,6 +25,10 @@ nav {
 
 .nav-item {
   text-decoration: none;
+  justify-content: center;
+  color: $accent-color2;
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 
 li {
@@ -39,7 +44,14 @@ li {
 
 // Content styles
 
+.container {
+  padding: 2rem;
+  background-color: $accent-color;
+}
+
 .content {
-  max-width: $half-size;
+  max-width: 50%;
+  padding: 1rem;
   margin: 0 auto;
+  background-color: $accent-color;
 }

@@ -4,10 +4,15 @@ import Nav from './Nav'
 import Home from './Home'
 
 const App = () => {
+  const author = 'Aaron Emerson'
   return (
     <div>
       <Router >
-        <Route path={'/'} component={Nav} />
+        <Route path={'/'}
+          exact={true}
+          render={props => <Nav me={author}
+            {...props} />} />
+        <div className='container'></div>
         <Switch>
           <Route exact path={'/'} component={Home} />
         </Switch>

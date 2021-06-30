@@ -6,6 +6,7 @@ html {
 nav {
   max-width: 50%;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 .nav-list {
@@ -14,6 +15,10 @@ nav {
 
 .nav-item {
   text-decoration: none;
+  justify-content: center;
+  color: #0090ff;
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 
 li {
@@ -27,9 +32,16 @@ li {
   background-color: #fff;
 }
 
+.container {
+  padding: 2rem;
+  background-color: #ff652f;
+}
+
 .content {
   max-width: 50%;
+  padding: 1rem;
   margin: 0 auto;
+  background-color: #ff652f;
 }
 
 /*# sourceMappingURL=index.css.map */
