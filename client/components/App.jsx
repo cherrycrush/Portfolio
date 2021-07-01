@@ -2,22 +2,30 @@ import React from 'react'
 import { HashRouter as Router, Route, Switch, useHistory } from 'react-router-dom'
 import Nav from './Nav'
 import Home from './Home'
+import Projects from './Projects'
+import Contact from './Contact'
 
 const App = () => {
-  const author = 'Aaron Emerson'
   return (
-    <div>
-      <Router >
-        <Route path={'/'}
-          exact={true}
-          render={props => <Nav me={author}
-            {...props} />} />
-        <div className='container'></div>
+    <>
+      <Router>
+        <Route path='/'>
+          <Nav author={'Aaron Emerson'}/>
+          <div className='container'></div>
+        </Route>
         <Switch>
-          <Route exact path={'/'} component={Home} />
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route exact path='/Projects'>
+            <Projects />
+          </Route>
+          <Route exact path='/Contact'>
+            <Contact />
+          </Route>
         </Switch>
       </Router>
-    </div>
+    </>
   )
 }
 

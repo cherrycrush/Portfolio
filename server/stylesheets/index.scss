@@ -1,8 +1,8 @@
-// Custom Variables
+// Color Variables
 
 $primary-color: #272727;
-$accent-color: #ff652f;
-$accent-color2: #0090ff;
+$accent-orange: #ff652f;
+$accent-blue: #0090ff;
 $text-color: #fff;
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
@@ -11,24 +11,16 @@ html {
   font-family: 'Fira Sans', sans-serif;
 }
 
-// Nav styles
+// Nav component
 
 nav {
-  max-width: 50%;
-  margin: 0 auto;
   padding: 1rem;
+  position: relative;
+  overflow: hidden;
 }
 
-.nav-list {
+ul {
   list-style: none;
-}
-
-.nav-item {
-  text-decoration: none;
-  justify-content: center;
-  color: $accent-color2;
-  font-weight: 600;
-  font-size: 1.1rem;
 }
 
 li {
@@ -36,22 +28,46 @@ li {
   padding: 1rem;
 }
 
+.nav-right {
+  float: right;
+}
+
+.nav-center {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  justify-content: center;
+  color: $accent-blue;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
 .nav-item:hover {
-  color: $accent-color;
+  color: $accent-orange;
   font-weight: 600;
   background-color: $text-color;
 }
 
-// Content styles
+// Content component (Home, Contact, Projects)
 
 .container {
   padding: 2rem;
-  background-color: $accent-color;
+  background-color: $accent-orange;
 }
 
 .content {
   max-width: 50%;
   padding: 1rem;
   margin: 0 auto;
-  background-color: $accent-color;
 }
