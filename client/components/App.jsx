@@ -11,7 +11,6 @@ const App = () => {
       <Router>
         <Route path='/'>
           <Nav author={'Aaron Emerson'}/>
-          <div className='container'></div>
         </Route>
         <Switch>
           <Route exact path='/'>
