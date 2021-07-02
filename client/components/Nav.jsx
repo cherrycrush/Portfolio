@@ -6,11 +6,16 @@ const Nav = (props) => {
     <div>
       <nav>
         <ul>
-          <li>
-            <Link className='nav-item' to ={'/'}>{props.author}</Link>
-            <li className='title'><a href='http://github.com/cherrycrush'>GitHub</a></li>
-          </li>
+          <div className='nav-left'>
+            <li>
+              <Link className='nav-item' to ={'/'}>{props.author}</Link>
+              <li className='title'><a href='http://github.com/cherrycrush'>GitHub</a></li>
+            </li>
+          </div>
           <div className='nav-right'>
+            <li>
+              <Link className='nav-item' to ={'/Blog'}>Blog</Link>
+            </li>
             <li>
               <Link className='nav-item' to ={'/Projects'}>Projects</Link>
             </li>
