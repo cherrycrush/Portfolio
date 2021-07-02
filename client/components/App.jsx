@@ -4,6 +4,7 @@ import Nav from './Nav'
 import Home from './Home'
 import Projects from './Projects'
 import Contact from './Contact'
+import Blog from './Blog'
 
 const App = () => {
   return (
@@ -15,6 +16,9 @@ const App = () => {
         <Switch>
           <Route exact path='/'>
             <Home />
+          </Route>
+          <Route exact path='/Blog'>
+            <Blog />
           </Route>
           <Route exact path='/Projects'>
             <Projects />
