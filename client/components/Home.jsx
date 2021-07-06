@@ -13,8 +13,7 @@ const Home = () => {
           <p>Full Stack Web Developer</p>
         </header>
         <br></br>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, amet? Distinctio deleniti corrupti laborum incidunt qui unde est eius? Magni corporis tempora quibusdam necessitatibus placeat vero autem odit saepe hic.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt atque a facilis inventore libero necessitatibus in laboriosam non animi voluptatem officiis magni fugit quas unde doloremque autem, beatae tempore!</p>
+        <p>Kia ora, I'm Aaron. Currently making the leap into a new career in full stack web development. When I'm not working I'm outside, doing resistance training in the gym, collecting/restoring worn dress shoes and boots or hanging out with friends. I also like to game, used to play Quake Live competitively.</p>
       </main>
     </>
   )
