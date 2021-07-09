@@ -1,10 +1,19 @@
 import React from 'react'
+import Bounce from 'react-reveal/Bounce'
 
 const Projects = () => {
   return (
-    <div className='content'>
-      <p>This is the projects page</p>
-    </div>
+    <>
+      <Bounce bottom delay={500}>
+        <main className='content'>
+          <h1 className='header-title'>
+            <img className='image-card' src='#' alt='Card image'></img>
+            <br></br>
+            Starships in React
+          </h1>
+        </main>
+      </Bounce>
+    </>
   )
 }
 

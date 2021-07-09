@@ -4,9 +4,11 @@
 }
 
 .nav {
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
   position: relative;
   overflow: hidden;
-  padding: 1rem;
   background-color: #d6d6d6;
 }
 
@@ -15,15 +17,17 @@ li {
 }
 
 .nav-item {
-  color: #272727;
-  font-weight: 600;
-  font-size: 1.1rem;
   padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #272727;
 }
 
 .nav-item:hover {
-  color: #ff652f;
+  padding: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
+  color: #ff652f;
   transition: 0.2s ease-in-out;
 }
 

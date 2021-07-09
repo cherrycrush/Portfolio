@@ -13,10 +13,16 @@ $text-color: #fff;
 
 // Nav component
 
+@mixin navtheme {
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
 .nav {
+  @include navtheme;
   position: relative;
   overflow: hidden;
-  padding: 1rem;
   background-color: #d6d6d6;
 }
 
@@ -25,15 +31,13 @@ li {
 }
 
 .nav-item {
+  @include navtheme;
   color: $primary-color;
-  font-weight: 600;
-  font-size: 1.1rem;
-  padding: 1rem;
 }
 
 .nav-item:hover {
+  @include navtheme;
   color: $accent-orange;
-  font-weight: 600;
   transition: 0.2s ease-in-out;
 }
 
