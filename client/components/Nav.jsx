@@ -19,9 +19,6 @@ const Nav = (props) => {
             <li>
               <Link className='nav-item' to ={'/Projects'}>Projects</Link>
             </li>
-            <li>
-              <Link className='nav-item' to ={'/Contact'}>Contact</Link>
-            </li>
           </div>
         </ul>
       </Bounce>
