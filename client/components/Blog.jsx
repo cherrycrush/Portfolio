@@ -1,7 +1,7 @@
 import React from 'react'
 import Bounce from 'react-reveal/Bounce'
 
-const Blog = () => {
+const Blog = (props) => {
   return (
     <>
       <Bounce bottom delay={500}>
