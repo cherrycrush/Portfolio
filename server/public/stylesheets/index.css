@@ -66,14 +66,28 @@ a:hover {
 }
 
 .content {
-  border: #272727 solid 3px;
-  border-bottom: #272727 solid 10px;
-  border-right: #272727 solid 10px;
   width: 50rem;
   max-width: 100vw;
   padding: 2rem;
   box-sizing: border-box;
   margin: 0 auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.image-card {
+  border: solid black 2px;
+  padding: 3rem;
+}
+
+.thumbnail {
+  float: left;
+}
+
+.title {
+  float: right;
 }
 
 /*# sourceMappingURL=index.css.map */
