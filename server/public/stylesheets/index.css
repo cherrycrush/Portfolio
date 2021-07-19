@@ -90,4 +90,11 @@ p {
   float: right;
 }
 
+footer {
+  bottom: 0;
+  text-align: center;
+  background-color: #d6d6d6;
+  padding: 1rem;
+}
+
 /*# sourceMappingURL=index.css.map */

@@ -14,10 +14,10 @@ const Nav = (props) => {
           </div>
           <div className='nav-right'>
             <li>
-              <Link className='nav-item' to ={'/Blog'}>Blog</Link>
+              <Link className='nav-item' to ={'/Blog'}>{props.blog}</Link>
             </li>
             <li>
-              <Link className='nav-item' to ={'/Projects'}>Projects</Link>
+              <Link className='nav-item' to ={'/Projects'}>{props.projects}</Link>
             </li>
           </div>
         </ul>

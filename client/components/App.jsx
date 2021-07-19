@@ -5,13 +5,18 @@ import Home from './Home'
 import Projects from './Projects'
 import Contact from './Contact'
 import Blog from './Blog'
+import Footer from './Footer'
 
 const App = () => {
   return (
     <>
       <Router>
         <Route path='/'>
-          <Nav author={'Aaron Emerson'}/>
+          <Nav
+            author={'Aaron Emerson'}
+            blog={'Blog'}
+            projects={'Projects'}
+          />
         </Route>
         <Switch>
           <Route exact path='/'>
@@ -27,6 +32,9 @@ const App = () => {
             <Contact />
           </Route>
         </Switch>
+        <Route path='/'>
+          <Footer />
+        </Route>
       </Router>
     </>
   )
