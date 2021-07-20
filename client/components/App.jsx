@@ -8,12 +8,14 @@ import Blog from './Blog'
 import Footer from './Footer'
 
 const App = () => {
+  const author = 'Aaron Emerson'
+
   return (
     <>
       <Router>
         <Route path='/'>
           <Nav
-            author={'Aaron Emerson'}
+            author={author}
             blog={'Blog'}
             projects={'Projects'}
           />
@@ -33,7 +35,9 @@ const App = () => {
           </Route>
         </Switch>
         <Route path='/'>
-          <Footer />
+          <Footer
+            author={author}
+          />
         </Route>
       </Router>
     </>

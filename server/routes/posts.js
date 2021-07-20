@@ -4,9 +4,9 @@ const db = require('../db/db')
 const router = express.Router()
 
 router.get('/Blog', (req, res) => {
+  console.log('hitting this route')
   db.getAllPosts()
     .then(posts => {
-      posts.map(post => { post.paragraphs = JSON.parse(post.paragraphs) })
       return res.json(posts)
     })
     .catch(err => {

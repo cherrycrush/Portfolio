@@ -1,24 +1,26 @@
 exports.seed = function(knex) {
   // Deletes ALL existing entries
-  return knex('Posts').del()
+  return knex('posts').del()
     .then(function () {
       // Inserts seed entries
-      return knex('Posts').insert([
+      return knex('posts').insert([
         {
           id: 1,
-          title: 'rowValue1',
-          date_created: new Date(Date.now()),
-          paragraphs: JSON.stringify([
-            'This topic will illustrate the best practices of the class and id attributes - when and how to use them. CSS is a ruleset where certain elements will have precedence over others, hence the name "Cascading style sheets". An element defined with an id attribute will take precedence over the class attribute.'
-          ])
+          title: 'Blog title',
+          dateCreated: new Date(Date.now()),
+          paragraphs: 'post here'
         },
         {
           id: 2,
-          title: 'rowValue2',
-          date_created: new Date(Date.now()),
-          paragraphs: JSON.stringify([
-            'Lorem ipsum'
-          ])
+          title: 'Blog title2',
+          dateCreated: new Date(Date.now()),
+          paragraphs: 'post here2'
+        },
+        {
+          id: 3,
+          title: 'Blog title3',
+          dateCreated: new Date(Date.now()),
+          paragraphs: 'post here3'
         }
       ])
     })

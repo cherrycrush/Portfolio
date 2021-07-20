@@ -5,7 +5,9 @@ const Footer = (props) => {
   return (
     <Bounce right delay={200}>
       <footer>
-        <p>Crafted by Aaron Emerson</p>
+        <p>
+          Crafted by {props.author}
+        </p>
       </footer>
     </Bounce>
   )

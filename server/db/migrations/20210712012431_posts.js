@@ -1,12 +1,12 @@
 exports.up = (knex) => {
-  return knex.schema.createTable('Posts', (table) => {
+  return knex.schema.createTable('posts', (table) => {
     table.increments().primary()
     table.string('title')
-    table.date('date_created')
-    table.string('paragraphs')
+    table.date('dateCreated')
+    table.text('paragraphs')
   })
 }
 
 exports.down = (knex) => {
-  return knex.schema.dropTable('Posts')
+  return knex.schema.dropTable('posts')
 }

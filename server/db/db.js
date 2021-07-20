@@ -1,8 +1,9 @@
 const config = require('./knexfile').development
-const database = require('knex')(config)
+const db = require('knex')(config)
 
-function getAllPosts (db = database) {
-  return db('Posts').select('id', 'title', 'date_created as dateCreated', 'paragraphs')
+function getAllPosts (database = db) {
+  return database('posts')
+    .select('id', 'title', 'dateCreated', 'paragraphs')
 }
 
 module.exports = {
