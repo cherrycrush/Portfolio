@@ -3,7 +3,7 @@ const db = require('../db/db')
 
 const router = express.Router()
 
-router.get('/Blog', (req, res) => {
+router.get('/', (req, res) => {
   console.log('hitting this route')
   db.getAllPosts()
     .then(posts => {
