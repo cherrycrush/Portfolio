@@ -11,9 +11,8 @@ const Blog = (props) => {
 
   useEffect(() => {
     fetchPosts()
-      .then(posts => {
-        console.log(posts)
-        setPosts(posts)
+      .then(res => {
+        setPosts(res)
         return null
       })
       .catch(err => console.log(err.message))
@@ -23,7 +22,8 @@ const Blog = (props) => {
     <>
       <Bounce bottom delay={500}>
         <main className='content'>
-          <p>{postData.title}</p>
+          <h2>{postData.title}</h2>
+          <p>{postData.paragraphs}</p>
         </main>
       </Bounce>
     </>

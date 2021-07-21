@@ -94,6 +94,8 @@ p {
 @mixin card {
   border: solid black 2px;
   padding: 3rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .image-card {

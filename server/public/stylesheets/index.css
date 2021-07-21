@@ -80,6 +80,8 @@ p {
 .image-card {
   border: solid black 2px;
   padding: 3rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .thumbnail {
