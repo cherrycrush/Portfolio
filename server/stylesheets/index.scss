@@ -96,10 +96,13 @@ p {
   padding: 3rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .image-card {
   @include card;
+  background-color: #d6d6d6;
+
 }
 
 .thumbnail {
