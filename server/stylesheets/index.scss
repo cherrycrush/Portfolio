@@ -95,23 +95,26 @@ p {
   border: solid black 2px;
   padding: 3rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
 .image-card {
   @include card;
-  background-color: #d6d6d6;
-
 }
 
 .thumbnail {
   float: left;
+  max-width: 60%;
+  max-height: 60%;
 }
 
 .title {
   float: right;
+  font-style: italic;
 }
+
+
 
 // Footer
 
