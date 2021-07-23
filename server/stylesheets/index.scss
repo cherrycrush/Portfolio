@@ -121,6 +121,8 @@ p {
 }
 
 .info-box {
+  font-weight: 600;
+  color: $accent-orange;
   padding: 0.5rem;
   border: $accent-orange solid 2px;
   border-radius: 10px;

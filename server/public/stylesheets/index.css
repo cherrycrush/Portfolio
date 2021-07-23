@@ -102,6 +102,8 @@ p {
 }
 
 .info-box {
+  font-weight: 600;
+  color: #ff652f;
   padding: 0.5rem;
   border: #ff652f solid 2px;
   border-radius: 10px;
