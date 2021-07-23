@@ -129,12 +129,14 @@ footer {
 // Media queries for mobile
 @media (min-width: 320px) and (max-width: 1024px) {
   .nav-item { 
-    @include navtheme;
-    font-size: 2rem; 
+    &:hover {
+      @include navtheme;
+      font-size: 2rem; 
+    }
   }
   .avatar {
-    width: 20rem;
-    height: 20rem;
+    width: 30rem;
+    height: 30rem;
   }
   .thumbnail {
     max-width: 80%;

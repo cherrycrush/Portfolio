@@ -16,7 +16,7 @@ const Home = () => {
           </header>
           <br></br>
           <p>
-            <strong>Kia ora!</strong> I'm Aaron. Currently making the leap into a new career in full stack web development. When I'm not working I'm outside, doing resistance training in the gym, collecting/restoring dress shoes and boots or hanging out with friends. I also like to game, used to play Quake Live competitively.
+            <strong>Kia ora!</strong> I'm Aaron. Currently making the leap into a new career in full stack web development. When I'm not working I'm outside, doing resistance training in the gym, collecting/restoring dress shoes and boots or hanging out with friends.
           </p>
           <br></br>
           <p>
