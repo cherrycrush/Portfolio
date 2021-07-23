@@ -3,6 +3,7 @@
 $primary-color: #272727;
 $accent-orange: #ff652f;
 $accent-blue: #b2c7f5;
+$blue: #b2c7dd;
 $text-color: #fff;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
@@ -89,8 +90,8 @@ p {
 // Project cards
 
 @mixin card {
-  border: solid black 2px;
-  padding: 3rem;
+  margin: 0 auto;
+  max-width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -110,6 +111,20 @@ p {
 .title {
   float: right;
   font-style: italic;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 75%;
+}
+
+.info-box {
+  padding: 0.5rem;
+  border: $accent-orange solid 2px;
+  border-radius: 10px;
+  width: fit-content;
 }
 
 // Footer

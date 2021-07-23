@@ -22,6 +22,7 @@ const Blog = (props) => {
     <>
       <Bounce bottom delay={500}>
         <main className='content'>
+          <p>Blog content coming soon.</p>
           <h2>{postData.title}</h2>
           <p>{postData.paragraphs}</p>
         </main>
