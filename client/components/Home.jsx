@@ -14,6 +14,7 @@ const Home = () => {
             </h1>
             <p>Full Stack Web Developer</p>
           </header>
+          <hr></hr>
           <br></br>
           <p>
             <strong>Kia ora!</strong> I'm Aaron. Currently making the leap into a new career in full stack web development. When I'm not working I'm outside, doing resistance training in the gym, collecting/restoring dress shoes and boots or hanging out with friends.

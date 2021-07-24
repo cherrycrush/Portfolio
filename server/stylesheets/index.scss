@@ -3,13 +3,16 @@
 $primary-color: #272727;
 $accent-orange: #ff652f;
 $accent-blue: #b2c7f5;
-$blue: #b2c7dd;
 $text-color: #fff;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
   font-family: 'Roboto', sans-serif;
+}
+
+@mixin leftborder {
+  border-left: $accent-orange 5px solid;
 }
 
 // Nav component
@@ -58,8 +61,8 @@ a {
 }
 
 a:hover {
+  @include leftborder;
   color: $accent-orange;
-  border-left: $accent-orange 5px solid;
   transition: all 2s ease-out 2s;
 }
 
@@ -90,7 +93,7 @@ p {
 // Project cards
 
 @mixin card {
-  margin: 0 auto;
+  margin: 75px auto;
   max-width: 75%;
   display: flex;
   flex-direction: column;
@@ -127,6 +130,11 @@ p {
   border: $accent-orange solid 2px;
   border-radius: 10px;
   width: fit-content;
+}
+
+.description {
+  @include leftborder;
+  padding: 1rem;
 }
 
 // Footer
