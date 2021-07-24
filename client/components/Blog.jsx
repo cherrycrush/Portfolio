@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react'
 import Bounce from 'react-reveal/Bounce'
 import { fetchPosts } from '../api/apiClient'
 
-const Blog = (props) => {
-  const [postData, setPosts] = useState({
+const Blog = () => {
+  const [post, setPost] = useState({
     title: '',
     dateCreated: '',
     paragraphs: ''
@@ -12,7 +12,7 @@ const Blog = (props) => {
   useEffect(() => {
     fetchPosts()
       .then(res => {
-        setPosts(res)
+        setPost(res)
         return null
       })
       .catch(err => console.log(err.message))
@@ -22,9 +22,9 @@ const Blog = (props) => {
     <>
       <Bounce bottom delay={500}>
         <main className='content'>
-          <p>Blog content coming soon.</p>
-          <h2>{postData.title}</h2>
-          <p>{postData.paragraphs}</p>
+          <h2>{{ ...post[0] }.title}</h2>
+          <hr></hr>
+          <p>{{ ...post[0] }.paragraphs}</p>
         </main>
       </Bounce>
     </>
