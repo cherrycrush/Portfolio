@@ -90,6 +90,11 @@ p {
   line-height: 2;
 }
 
+span {
+  display: flex;
+  flex-direction: row;
+}
+
 // Project cards
 
 @mixin card {

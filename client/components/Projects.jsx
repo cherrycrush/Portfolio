@@ -7,7 +7,7 @@ const Projects = () => {
 
   return (
     <>
-      <Bounce bottom delay={500}>
+      <Bounce bottom delay={200}>
         <main className='content'>
           <h1>Projects</h1>
           <section className='image-card'>

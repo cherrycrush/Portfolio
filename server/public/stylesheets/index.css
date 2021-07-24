@@ -74,6 +74,11 @@ p {
   line-height: 2;
 }
 
+span {
+  display: flex;
+  flex-direction: row;
+}
+
 .image-card {
   margin: 75px auto;
   max-width: 75%;

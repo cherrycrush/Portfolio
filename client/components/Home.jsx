@@ -4,7 +4,7 @@ import Bounce from 'react-reveal/Bounce'
 const Home = () => {
   return (
     <>
-      <Bounce bottom delay={500}>
+      <Bounce bottom delay={200}>
         <main className='content'>
           <header className='home-header'>
             <h1 className='header-title'>
