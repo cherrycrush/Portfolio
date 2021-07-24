@@ -4,7 +4,7 @@
 }
 
 .nav {
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 1.1rem;
   font-weight: 600;
   position: relative;
@@ -17,14 +17,14 @@ li {
 }
 
 .nav-item {
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 1.1rem;
   font-weight: 600;
   color: #272727;
 }
 
 .nav-item:hover {
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 1.1rem;
   font-weight: 600;
   color: #ff652f;
@@ -125,10 +125,13 @@ footer {
 
 @media (min-width: 320px) and (max-width: 1024px) {
   .nav-item {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
   }
   .nav-item:hover {
-    font-size: 2rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.5rem;
+    border-left: none;
   }
 
   .avatar {

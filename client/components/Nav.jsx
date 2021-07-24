@@ -11,6 +11,12 @@ const Nav = (props) => {
             <li>
               <Link className='nav-item' to ={'/'}>{props.author}</Link>
             </li>
+            <li>
+              <a className='nav-item' href='https://www.linkedin.com/in/aaron-emerson21/'><i className='fab fa-linkedin fa-2x'></i></a>
+            </li>
+            <li>
+              <a className='nav-item' href='https://github.com/cherrycrush'><i className='fab fa-github-square fa-2x'></i></a>
+            </li>
           </div>
           <div className='nav-right'>
             <li>
