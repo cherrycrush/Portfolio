@@ -22,11 +22,7 @@ li {
   font-weight: 600;
   color: #272727;
 }
-
 .nav-item:hover {
-  padding: 0.5rem 1rem;
-  font-size: 1.1rem;
-  font-weight: 600;
   color: #ff652f;
   transition: 0.2s ease-in-out;
 }
@@ -45,7 +41,6 @@ a {
   font-weight: 600;
   text-decoration: none;
 }
-
 a:hover {
   border-left: #ff652f 5px solid;
   color: #ff652f;
@@ -100,7 +95,6 @@ iframe {
 
 .title {
   margin: 0 auto;
-  float: right;
   font-style: italic;
   padding: 1rem;
 }

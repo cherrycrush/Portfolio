@@ -22,12 +22,19 @@ const Blog = () => {
     <>
       <Bounce bottom delay={200}>
         <main className='content'>
-          <setion>
+          <article>
             <h2>{{ ...post[0] }.title}</h2>
             <span>{{ ...post[0] }.dateCreated}</span>
             <hr></hr>
             <p>{{ ...post[0] }.paragraphs}</p>
-          </setion>
+          </article>
+          <br></br>
+          <article>
+            <h2>{{ ...post[1] }.title}</h2>
+            <span>{{ ...post[1] }.dateCreated}</span>
+            <hr></hr>
+            <p>{{ ...post[1] }.paragraphs}</p>
+          </article>
         </main>
       </Bounce>
     </>

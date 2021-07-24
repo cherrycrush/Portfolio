@@ -35,12 +35,10 @@ li {
 .nav-item {
   @include navtheme;
   color: $primary-color;
-}
-
-.nav-item:hover {
-  @include navtheme;
-  color: $accent-orange;
-  transition: 0.2s ease-in-out;
+  &:hover {
+    color: $accent-orange;
+    transition: 0.2s ease-in-out;
+  }
 }
 
 .nav-right {
@@ -56,12 +54,11 @@ li {
 a {
   font-weight: 600;
   text-decoration: none;
-}
-
-a:hover {
-  @include leftborder;
-  color: $accent-orange;
-  transition: all 2s ease-out 2s;
+  &:hover {
+    @include leftborder;
+    color: $accent-orange;
+    transition: all 2s ease-out 2s;
+  }
 }
 
 // Content component 
@@ -120,7 +117,6 @@ iframe {
 
 .title {
   margin: 0 auto;
-  float: right;
   font-style: italic;
   padding: 1rem;
 }
