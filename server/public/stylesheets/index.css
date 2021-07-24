@@ -89,24 +89,31 @@ span {
 
 .thumbnail {
   float: left;
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 70%;
+  max-height: 70%;
+  margin: 0 auto;
+}
+
+iframe {
   margin: 0 auto;
 }
 
 .title {
+  margin: 0 auto;
   float: right;
   font-style: italic;
+  padding: 1rem;
 }
 
 .container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 75%;
+  max-width: 80%;
 }
 
 .info-box {
+  margin: 0 auto;
   font-weight: 600;
   color: #ff652f;
   padding: 0.5rem;
