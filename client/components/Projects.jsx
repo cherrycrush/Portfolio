@@ -22,6 +22,7 @@ const Projects = () => {
                 <div key={index} className='info-box'>{item}</div>
               ))}
             </div>
+            <a href='#'>View code</a>
           </section>
           <hr></hr>
           <section className='image-card'>
