@@ -16,13 +16,14 @@ const Projects = () => {
             <br></br>
             <p className='description'>
               Inspired by Star Wars! A React app that calls an external API (swapi) and retrieves the JSON data and displays that data inside React components.
+              <br></br>
+              <a href='https://github.com/cherrycrush/React-Starwars'> View code</a>
             </p>
             <div className='container'>
               {swProject.map((item, index) => (
                 <div key={index} className='info-box'>{item}</div>
               ))}
             </div>
-            <a href='#'>View code</a>
           </section>
           <hr></hr>
           <section className='image-card'>
@@ -31,6 +32,8 @@ const Projects = () => {
             <br></br>
             <p className='description'>
               A project I created with a group at EDA. An idea was pitched to make a loyalty card app wallet that stores your personal loyalty cards in one place! I helped create the front-end using Semantic UI and designing some of the React components.
+              <br></br>
+              <a href='https://github.com/cherrycrush/Loyal-tea'> View code</a>
             </p>
             <div className='container'>
               {loyaltyProject.map((item, index) => (
