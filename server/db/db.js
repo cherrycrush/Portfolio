@@ -6,6 +6,12 @@ function getAllPosts (database = db) {
     .select('id', 'title', 'dateCreated', 'paragraphs')
 }
 
+function getHomeInfo (database = db) {
+  return database('info')
+    .select('id', 'paragraph')
+}
+
 module.exports = {
-  getAllPosts
+  getAllPosts,
+  getHomeInfo
 }

@@ -1,7 +1,23 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Bounce from 'react-reveal/Bounce'
+import { fetchInfo } from '../api/apiClient'
 
 const Home = () => {
+  const [info, setInfo] = useState({
+    id: '',
+    paragraph: ''
+  })
+
+  useEffect(() => {
+    fetchInfo()
+      .then(res => {
+        setInfo(res)
+        console.log(res)
+        return null
+      })
+      .catch(err => console.log(err.message))
+  }, [])
+
   return (
     <>
       <Bounce bottom delay={200}>
@@ -16,9 +32,7 @@ const Home = () => {
           </header>
           <hr></hr>
           <br></br>
-          <p>
-            <strong>Kia ora!</strong> I'm Aaron. Currently making the leap into a new career in full stack web development. When I'm not working I'm outside, doing resistance training in the gym, collecting/restoring dress shoes and boots or hanging out with friends.
-          </p>
+          <p>{info.paragraph}</p>
           <br></br>
           <p>
             I am a web developer with an interest in crafting beautiful things. I have always had an interest in expressing myself creatively through building levels for games, creating sleek and responsive web pages.
