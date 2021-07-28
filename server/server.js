@@ -5,12 +5,14 @@ const cors = require('cors')
 const server = express()
 
 const posts = require('./routes/posts')
+const info = require('./routes/info')
 
 server.use(express.json())
 server.use(express.static(path.join(__dirname, './public')))
 server.use(cors('*'))
 
 server.use('/v1/posts', posts)
+server.use('/v1/info', info)
 server.use('/v1/*', (req, res) => res.sendStatus(404))
 
 server.get('*', (req, res) => {
