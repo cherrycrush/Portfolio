@@ -1,4 +1,5 @@
 $primary-color: #272727;
+$light-orange: #ffb671;
 $accent-orange: #ff652f;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
@@ -17,6 +18,7 @@ $accent-orange: #ff652f;
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
   font-weight: 600;
+  background-color: $primary-color;
 }
 
 .nav {
@@ -32,7 +34,7 @@ li {
 
 .nav-item {
   @include navtheme;
-  color: $primary-color;
+  color: $light-orange;
   &:hover {
     color: $accent-orange;
     transition: 0.2s ease-in-out;
