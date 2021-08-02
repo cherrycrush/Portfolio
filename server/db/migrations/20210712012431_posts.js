@@ -3,7 +3,7 @@ exports.up = (knex) => {
     table.increments().primary()
     table.string('title')
     table.date('dateCreated')
-    table.text('paragraphs')
+    table.string('paragraphs')
   })
 }
 

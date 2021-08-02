@@ -22,7 +22,6 @@ const Blog = () => {
     <>
       <Bounce bottom delay={200}>
         <main className='content'>
-          <p className='info-box'>Blog content coming soon.</p>
           <article>
             <h2>{{ ...post[0] }.title}</h2>
             <span>{{ ...post[0] }.dateCreated}</span>
