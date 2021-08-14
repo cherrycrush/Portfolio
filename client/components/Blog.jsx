@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Bounce from 'react-reveal/Bounce'
 import { fetchPosts } from '../api/apiClient'
+import Post from './Post'
 
 const Blog = () => {
   const [post, setPost] = useState({
@@ -20,6 +21,7 @@ const Blog = () => {
 
   return (
     <>
+      <Post />
       <Bounce bottom delay={200}>
         <main className='content'>
           <article>

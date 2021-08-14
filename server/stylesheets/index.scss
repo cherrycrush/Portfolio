@@ -1,6 +1,6 @@
 $primary-color: #272727;
-$light-orange: #ffb671;
-$accent-orange: #ff652f;
+$light-blue: #1c91ff;
+$accent-blue: #88c5ff;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
@@ -11,7 +11,7 @@ $accent-orange: #ff652f;
 // Nav component
 
 @mixin leftborder {
-  border-left: $accent-orange 5px solid;
+  border-left: $accent-blue 5px solid;
 }
 
 @mixin navtheme {
@@ -34,9 +34,9 @@ li {
 
 .nav-item {
   @include navtheme;
-  color: $light-orange;
+  color: $light-blue;
   &:hover {
-    color: $accent-orange;
+    color: $accent-blue;
     transition: 0.2s ease-in-out;
   }
 }
@@ -56,7 +56,7 @@ a {
   text-decoration: none;
   &:hover {
     @include leftborder;
-    color: $accent-orange;
+    color: $accent-blue;
     transition: all 2s ease-out 2s;
   }
 }
@@ -131,9 +131,9 @@ iframe {
 .info-box {
   margin: 0 auto;
   font-weight: 600;
-  color: $accent-orange;
+  color: $light-blue;
   padding: 0.5rem;
-  border: $accent-orange solid 2px;
+  border: $light-blue solid 2px;
   border-radius: 10px;
   width: fit-content;
 }
@@ -158,7 +158,7 @@ footer {
   padding: 1rem;
   color: $primary-color;
   &:hover {
-    color: $accent-orange;
+    color: $light-blue;
   }
 }
 

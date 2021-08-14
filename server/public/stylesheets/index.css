@@ -22,10 +22,10 @@ li {
   font-size: 1.1rem;
   font-weight: 600;
   background-color: #272727;
-  color: #ffb671;
+  color: #1c91ff;
 }
 .nav-item:hover {
-  color: #ff652f;
+  color: #88c5ff;
   transition: 0.2s ease-in-out;
 }
 
@@ -44,8 +44,8 @@ a {
   text-decoration: none;
 }
 a:hover {
-  border-left: #ff652f 5px solid;
-  color: #ff652f;
+  border-left: #88c5ff 5px solid;
+  color: #88c5ff;
   transition: all 2s ease-out 2s;
 }
 
@@ -111,15 +111,15 @@ iframe {
 .info-box {
   margin: 0 auto;
   font-weight: 600;
-  color: #ff652f;
+  color: #1c91ff;
   padding: 0.5rem;
-  border: #ff652f solid 2px;
+  border: #1c91ff solid 2px;
   border-radius: 10px;
   width: fit-content;
 }
 
 .description {
-  border-left: #ff652f 5px solid;
+  border-left: #88c5ff 5px solid;
   padding: 1rem;
 }
 
@@ -137,7 +137,7 @@ footer {
   color: #272727;
 }
 .social:hover {
-  color: #ff652f;
+  color: #1c91ff;
 }
 
 @media (min-width: 320px) and (max-width: 1024px) {
