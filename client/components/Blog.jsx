@@ -19,12 +19,14 @@ const Blog = () => {
       .catch(err => console.log(err.message))
   }, [])
 
+  console.log(post)
   return (
     <>
       <Post />
       <Bounce bottom delay={200}>
         <main className='content'>
-          <article>
+          {Object.keys(post)}
+          {/* <article>
             <h2>{{ ...post[0] }.title}</h2>
             <span>{{ ...post[0] }.dateCreated}</span>
             <hr></hr>
@@ -36,7 +38,7 @@ const Blog = () => {
             <span>{{ ...post[1] }.dateCreated}</span>
             <hr></hr>
             <p>{{ ...post[1] }.paragraphs}</p>
-          </article>
+          </article> */}
         </main>
       </Bounce>
     </>

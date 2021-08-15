@@ -25,7 +25,6 @@ const Projects = () => {
               ))}
             </div>
           </section>
-          <hr></hr>
           <section className='image-card'>
             <h2 className='title'>Loyalty Card Wallet</h2>
             <iframe width="350" height="300" src="https://www.youtube.com/embed/1KplKq0V_Kg" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
