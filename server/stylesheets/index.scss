@@ -13,7 +13,7 @@ $color-ltorange: #ffdfb6;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 // Nav component
@@ -105,7 +105,7 @@ span {
 
 @mixin card {
   margin: 75px auto;
-  max-width: 75%;
+  max-width: 90%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
