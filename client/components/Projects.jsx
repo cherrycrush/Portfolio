@@ -10,6 +10,7 @@ const Projects = () => {
       <Bounce bottom delay={200}>
         <main className='content'>
           <h1>Projects</h1>
+          <hr></hr>
           <section className='image-card'>
             <h2 className='title'>React Star Wars</h2>
             <img className='thumbnail' src='./images/react-sw.png' alt='Project thumbnail'></img>
