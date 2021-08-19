@@ -1,6 +1,10 @@
-$primary-color: #272727;
-$light-blue: #1c91ff;
-$accent-blue: #88c5ff;
+// Colour variables 
+
+$color-bg: #21262d;
+$color-blue: #0d419d;
+$color-ltblue: #88c5ff;
+$color-orange: #f0883e;
+$color-ltorange: #ffdfb6;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
@@ -9,27 +13,28 @@ $accent-blue: #88c5ff;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 // Nav component
 
 @mixin leftborder {
-  border-left: $accent-blue 5px solid;
+  border-left: $color-orange 5px solid;
 }
 
 @mixin navtheme {
-  padding: 16px;
+  padding: 8px 1rem;
   box-sizing: border-box;
   font-size: 1.1rem;
   font-weight: 600;
-  background-color: $primary-color;
+  background-color: $color-bg;
 }
 
 .nav {
   @include navtheme;
   position: relative;
   overflow: hidden;
-  border-bottom: $primary-color solid 3px;
+  border-bottom: $color-bg solid 3px;
 }
 
 li {
@@ -38,9 +43,9 @@ li {
 
 .nav-item {
   @include navtheme;
-  color: $light-blue;
+  color: #ffff;
   &:hover {
-    color: $accent-blue;
+    color: $color-orange;
     transition: 0.2s ease-in-out;
   }
 }
@@ -60,7 +65,7 @@ a {
   text-decoration: none;
   &:hover {
     @include leftborder;
-    color: $accent-blue;
+    color: $color-ltblue;
     transition: all 2s ease-out 2s;
   }
 }
@@ -68,6 +73,7 @@ a {
 // Content component 
 
 .home-header {
+  padding-top: 5rem;
   text-align: center;
 }
 
@@ -78,6 +84,7 @@ a {
 }
 
 .content {
+  min-height: 100vh;
   width: 50rem;
   max-width: 100vw;
   padding: 2rem;
@@ -130,41 +137,42 @@ iframe {
 .container {
   display: flex;
   flex-direction: row;
+  padding: 1rem 0.5rem;
   justify-content: space-between;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .info-box {
   margin: 0 auto;
   font-weight: 600;
-  color: $light-blue;
   padding: 0.5rem;
-  border: $light-blue solid 2px;
+  border:$color-blue solid 2px;
   border-radius: 10px;
-  width: fit-content;
 }
 
 .description {
   @include leftborder;
+  background-color: $color-ltorange;
   padding: 1rem;
 }
 
 // Footer
 
 footer {
-  border-top: $primary-color solid 3px;
-  width: 50rem;
+  @include navtheme;
   max-width: 100vw;
   margin: 0 auto;
   text-align: center;
+  background-color: $color-bg;
 }
 
 .social {
+  @include navtheme;
   margin: 0 auto;
   padding: 1rem;
-  color: $primary-color;
+  color: #ffff;
   &:hover {
-    color: $light-blue;
+    color: $color-orange;
   }
 }
 

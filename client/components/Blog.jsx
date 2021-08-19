@@ -22,7 +22,6 @@ const Blog = () => {
   console.log(post)
   return (
     <>
-      <Post />
       <Bounce bottom delay={200}>
         <main className='content'>
           <p className='info-box'>Work in progress! I'm working on connecting this React component to a SQLite database containing blog posts. Database query functions will be made with Knex JS.</p>
