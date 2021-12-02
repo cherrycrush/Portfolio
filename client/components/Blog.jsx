@@ -25,6 +25,7 @@ const Blog = () => {
       <Bounce bottom delay={200}>
         <main className='content'>
           <p className='info-box'>Work in progress! I'm working on connecting this React component to a SQLite database containing blog posts. Database query functions will be made with Knex JS.</p>
+          <Post />
           {/* <article>
             <h2>{{ ...post[0] }.title}</h2>
             <span>{{ ...post[0] }.dateCreated}</span>

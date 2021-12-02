@@ -41,6 +41,13 @@ const Projects = () => {
               ))}
             </div>
           </section>
+          <section className='image-card'>
+            <h2 className='title'>Blog</h2>
+            <br></br>
+            <p>A blog created for my learning journey throughout EDA. I talk about tools and techniques learned, and exploring my growth mindset! I created it with plain HTML, CSS and JavaScript.</p>
+            <br></br>
+            <a href='https://cherrycrush.github.io'> View Blog</a>
+          </section>
         </main>
       </Bounce>
     </>
