@@ -50,10 +50,10 @@ const Projects = () => {
           </section>
           <section className='image-card'>
             <h2 className='title'>NFT Project</h2>
-							<p className='description'>A work in progress, check back soon!
-							<br></br>
-							<a href='#'>View code</a>
-							</p>
+            <p className='description'>A work in progress, check back soon!
+              <br></br>
+              <a href='#'>View code</a>
+            </p>
           </section>
         </main>
       </Bounce>
