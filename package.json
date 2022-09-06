@@ -20,7 +20,7 @@
     "build:client": "npm run webpack -- --mode production",
     "build:server": "npm run knex -- migrate:latest",
     "webpack": "webpack --config ./client/webpack.config.js",
-    "knex": "knex --knexfile ./server/db/knexfile.js",   
+    "knex": "knex --knexfile ./server/db/knexfile.js",
     "server": "node server",
     "test": "jest",
     "test:watch": "jest --watchAll",
