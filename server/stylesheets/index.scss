@@ -8,6 +8,10 @@ $color-ltorange: #ffdfb6;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+html {
+  background-color: $color-bg;
+}
+
 * {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -90,6 +94,8 @@ a {
   padding: 2rem;
   box-sizing: border-box;
   margin: 0 auto;
+  background-color: #ffff;
+  border-radius: 25px;
 }
 
 p {
