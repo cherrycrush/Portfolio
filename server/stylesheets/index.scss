@@ -1,6 +1,6 @@
 // Colour variables 
 
-$color-bg: #21262d;
+$color-bg: #1f1322;
 $color-blue: #0d419d;
 $color-ltblue: #88c5ff;
 $color-orange: #f0883e;
@@ -115,7 +115,8 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid #ddd;
+  border: 5px solid #888;
+  box-shadow: 5px 10px #444;
   padding: 2rem;
 }
 
