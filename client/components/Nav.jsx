@@ -9,7 +9,7 @@ const Nav = (props) => {
         <ul className='nav'>
           <div className='nav-left'>
             <li>
-              <Link className='nav-item' to ={'/'}>{props.author}</Link>
+              <Link className='nav-item' to ={'/'}><i class="fa-sharp fa-solid fa-house"></i></Link>
             </li>
           </div>
           <div className='nav-right'>
