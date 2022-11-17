@@ -14,7 +14,7 @@ const App = () => {
       <Router>
         <Route path='/'>
           <Nav
-            author={author}
+            author={'/'}
             blog={'Blog'}
             projects={'Projects'}
           />
