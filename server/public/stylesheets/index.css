@@ -64,12 +64,6 @@ a:hover {
   text-align: center;
 }
 
-.avatar {
-  width: 15rem;
-  height: 15rem;
-  border-radius: 100%;
-}
-
 .content {
   min-height: 100vh;
   width: 50rem;

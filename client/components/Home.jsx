@@ -8,7 +8,7 @@ const Home = () => {
         <main className='content'>
           <header className='home-header'>
             <h1 className='header-title'>
-              <img className='avatar' src='/images/mug.png' alt='avatar'></img>
+              <img className='avatar' src='/images/blueeyeswhitedragon.jpg' alt='avatar'></img>
               <br></br>
               Aaron Emerson
             </h1>
