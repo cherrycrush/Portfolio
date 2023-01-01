@@ -8,17 +8,11 @@ const Home = () => {
         <main className='content'>
           <header className='home-header'>
             <h1 className='header-title'>
-              <img className='avatar' src='/images/blueeyeswhitedragon.jpg' alt='avatar'></img>
-              <br></br>
               Aaron Emerson
             </h1>
             <p>Full Stack Web Developer</p>
           </header>
           <hr></hr>
-          <br></br>
-          <p>
-            <strong>Kia ora!</strong> I'm Aaron. Currently making the leap into a new career in full stack web development. When I'm not working I'm outside, doing resistance training in the gym, collecting/restoring dress shoes and boots or hanging out with friends.
-          </p>
           <br></br>
           <p>
             I am a web developer with an interest in crafting beautiful things. I have always had an interest in expressing myself creatively through building levels for games, creating sleek and responsive web pages.
