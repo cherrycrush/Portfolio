@@ -18,13 +18,15 @@ html {
   font-weight: 600;
   margin: 0 auto;
   background-color: #1f1322;
+  display: flex;
+  justify-content: center;
   position: relative;
   overflow: hidden;
   border-bottom: #1f1322 solid 3px;
 }
 
 li {
-  display: inline;
+  display: inline-block;
 }
 
 .nav-item {
@@ -34,6 +36,7 @@ li {
   font-weight: 600;
   margin: 0 auto;
   background-color: #1f1322;
+  margin: 0 auto;
   color: #ffff;
 }
 .nav-item:hover {
@@ -42,7 +45,6 @@ li {
 }
 
 .nav {
-  justify-content: center;
   padding: 1rem;
 }
 

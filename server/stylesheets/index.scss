@@ -37,17 +37,20 @@ html {
 
 .nav {
   @include navtheme;
+  display: flex;
+  justify-content: center;
   position: relative;
   overflow: hidden;
   border-bottom: $color-bg solid 3px;
 }
 
 li {
-  display: inline;
+  display: inline-block;
 }
 
 .nav-item {
   @include navtheme;
+  margin: 0 auto;
   color: #ffff;
   &:hover {
     color: $color-orange;
@@ -56,7 +59,6 @@ li {
 }
 
 .nav {
-  justify-content: center;
   padding: 1rem;
 }
 

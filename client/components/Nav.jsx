@@ -6,8 +6,8 @@ const Nav = (props) => {
   return (
     <div>
       <Bounce left delay={200}>
-        <ul className='nav'>
-          <div className='nav'>
+      <div className='nav'>
+        <ul>
             <li>
               <Link className='nav-item' to ={'/'}>{props.home}<i class="fa-sharp fa-solid fa-house"></i></Link>
             </li>
@@ -17,8 +17,8 @@ const Nav = (props) => {
             <li>
               <Link className='nav-item' to ={'/Projects'}>{props.projects}</Link>
             </li>
-          </div>
         </ul>
+        </div>
       </Bounce>
     </div>
   )
