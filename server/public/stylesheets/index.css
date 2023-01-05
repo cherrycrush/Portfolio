@@ -16,6 +16,7 @@ html {
   box-sizing: border-box;
   font-size: 1.1rem;
   font-weight: 600;
+  margin: 0 auto;
   background-color: #1f1322;
   position: relative;
   overflow: hidden;
@@ -31,6 +32,7 @@ li {
   box-sizing: border-box;
   font-size: 1.1rem;
   font-weight: 600;
+  margin: 0 auto;
   background-color: #1f1322;
   color: #ffff;
 }
@@ -39,13 +41,8 @@ li {
   transition: 0.2s ease-in-out;
 }
 
-.nav-right {
-  float: right;
-  padding: 1rem;
-}
-
-.nav-left {
-  float: left;
+.nav {
+  justify-content: center;
   padding: 1rem;
 }
 
@@ -60,7 +57,7 @@ a:hover {
 }
 
 .avatar {
-  max-width: 40%;
+  width: 40%;
   max-height: auto;
   border-radius: 50%;
 }
@@ -145,6 +142,7 @@ footer {
   box-sizing: border-box;
   font-size: 1.1rem;
   font-weight: 600;
+  margin: 0 auto;
   background-color: #1f1322;
   max-width: 100vw;
   margin: 0 auto;
@@ -157,6 +155,7 @@ footer {
   box-sizing: border-box;
   font-size: 1.1rem;
   font-weight: 600;
+  margin: 0 auto;
   background-color: #1f1322;
   margin: 0 auto;
   padding: 1rem;

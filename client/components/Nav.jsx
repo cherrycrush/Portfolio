@@ -7,12 +7,10 @@ const Nav = (props) => {
     <div>
       <Bounce left delay={200}>
         <ul className='nav'>
-          <div className='nav-left'>
+          <div className='nav'>
             <li>
-              <Link className='nav-item' to ={'/'}><i class="fa-sharp fa-solid fa-house"></i></Link>
+              <Link className='nav-item' to ={'/'}>{props.home}<i class="fa-sharp fa-solid fa-house"></i></Link>
             </li>
-          </div>
-          <div className='nav-right'>
             <li>
               <Link className='nav-item' to ={'/Blog'}>{props.blog}</Link>
             </li>
