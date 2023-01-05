@@ -22,8 +22,8 @@ html {
 
 // Nav component
 
-@mixin leftborder {
-  border-left: $color-orange 5px solid;
+@mixin underline {
+  border-bottom: $color-orange 5px solid;
 }
 
 @mixin navtheme {
@@ -65,7 +65,7 @@ a {
   font-weight: 600;
   text-decoration: none;
   &:hover {
-    @include leftborder;
+    @include underline;
     color: $color-ltblue;
     transition: all 2s ease-out 2s;
   }
@@ -155,7 +155,7 @@ iframe {
 }
 
 .description {
-  @include leftborder;
+  @include underline;
   background-color: $color-ltorange;
   padding: 1rem;
 }

@@ -51,7 +51,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  border-left: #f0883e 5px solid;
+  border-bottom: #f0883e 5px solid;
   color: #88c5ff;
   transition: all 2s ease-out 2s;
 }
@@ -132,7 +132,7 @@ iframe {
 }
 
 .description {
-  border-left: #f0883e 5px solid;
+  border-bottom: #f0883e 5px solid;
   background-color: #ffdfb6;
   padding: 1rem;
 }
