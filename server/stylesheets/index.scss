@@ -76,6 +76,12 @@ a {
 
 // Content component 
 
+.avatar {
+  max-width: 40%;
+  max-height: auto;
+  border-radius: 50%;
+}
+
 .home-header {
   padding-top: 5rem;
   text-align: center;

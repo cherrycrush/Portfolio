@@ -7,6 +7,7 @@ const Home = () => {
       <Bounce bottom delay={200}>
         <main className='content'>
           <header className='home-header'>
+          <img className='avatar' src='/images/mug.jpg' alt='Profile picture'></img>
             <h1 className='header-title'>
               Aaron Emerson
             </h1>
