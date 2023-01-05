@@ -26,6 +26,7 @@ const Blog = () => {
         <main className='content'>
         <article>
         <h2>Blog</h2>
+        <h2>Blog coming soon!</h2>
             <h2>{{ ...post[1] }.title}</h2>
             <span>{{ ...post[1] }.dateCreated}</span>
             <hr></hr>
