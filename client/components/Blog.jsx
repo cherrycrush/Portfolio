@@ -27,17 +27,17 @@ const Blog = () => {
         <article>
         <h2>Blog</h2>
         <h2>Blog coming soon!</h2>
-            <h2>{{ ...post[1] }.title}</h2>
-            <span>{{ ...post[1] }.dateCreated}</span>
+            <h2>{{ ...post[1]}.title}</h2>
+            <span>{{ ...post[1]}.dateCreated}</span>
             <hr></hr>
-            <p>{{ ...post[1] }.paragraphs}</p>
+            <p>{{ ...post[1]}.paragraphs}</p>
           </article>
           <br></br>
           <article>
-            <h2>{{ ...post[0] }.title}</h2>
-            <span>{{ ...post[0] }.dateCreated}</span>
+            <h2>{{ ...post[0]}.title}</h2>
+            <span>{{ ...post[0]}.dateCreated}</span>
             <hr></hr>
-            <p>{{ ...post[0] }.paragraphs}</p>
+            <p>{{ ...post[0]}.paragraphs}</p>
           </article>
           <br></br>
         </main>
