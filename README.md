@@ -3,7 +3,7 @@
 This is my portfolio to show my finished personal projects, group projects or things I'm currently working on.
 
 # Link
-http://aarondev.herokuapp.com
+http://aarondevnz.netlify.app
 
 
 <!-- # A starter webpack project for React
