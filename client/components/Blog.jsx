@@ -26,13 +26,12 @@ const Blog = () => {
         <main className='content'>
         <article>
         <h2>Blog</h2>
-        <h2>Blog coming soon!</h2>
+        <p>Under construction!</p>
             <h2>{{ ...post[1]}.title}</h2>
             <span>{{ ...post[1]}.dateCreated}</span>
             <hr></hr>
             <p>{{ ...post[1]}.paragraphs}</p>
           </article>
-          <br></br>
           <article>
             <h2>{{ ...post[0]}.title}</h2>
             <span>{{ ...post[0]}.dateCreated}</span>

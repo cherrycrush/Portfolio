@@ -16,7 +16,7 @@ const Projects = () => {
             <img className='thumbnail' src='./images/react-sw.png' alt='Project thumbnail'></img>
             <br></br>
             <p className='description'>
-              Inspired by Star Wars! A React app that calls an external API (swapi) and retrieves the JSON data and displays that data inside React components.
+              A React app that uses API calls to swapi and retrieves the JSON data and displays that data inside React components.
               <br></br>
               <a href='https://github.com/cherrycrush/React-Starwars'> View code</a>
             </p>
@@ -46,13 +46,6 @@ const Projects = () => {
             <p className='description'>A blog created for my learning journey throughout EDA. I talk about tools and techniques learned, and exploring my growth mindset! I created it with plain HTML, CSS and JavaScript.
               <br></br>
               <a href='https://cherrycrush.github.io'> View Blog</a>
-            </p>
-          </section>
-          <section className='image-card'>
-            <h2 className='title'>NFT Project</h2>
-            <p className='description'>A work in progress, check back soon!
-              <br></br>
-              <a href='#'>View code</a>
             </p>
           </section>
         </main>
