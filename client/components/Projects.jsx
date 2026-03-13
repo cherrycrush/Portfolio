@@ -2,8 +2,8 @@ import React from 'react'
 import Bounce from 'react-reveal/Bounce'
 
 const Projects = () => {
-  const swProject = ['JavaScript', 'React', 'CSS', 'HTML']
-  const loyaltyProject = ['JavaScript', 'React', 'Semantic UI', 'Passport.JS']
+  const swProject = ['React', 'CSS', 'HTML']
+  const loyaltyProject = ['React', 'Semantic UI', 'Passport.JS']
 
   return (
     <>

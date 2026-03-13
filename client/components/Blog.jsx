@@ -25,7 +25,7 @@ const Blog = () => {
       <Bounce bottom delay={200}>
         <main className='content'>
         <article>
-        <h2>Blog</h2>
+        <h1>Blog</h1>
         <p>Under construction!</p>
             <h2>{{ ...post[1]}.title}</h2>
             <span>{{ ...post[1]}.dateCreated}</span>
