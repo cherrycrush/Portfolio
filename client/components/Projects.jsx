@@ -20,6 +20,7 @@ const Projects = () => {
               <br></br>
               <a href='https://github.com/cherrycrush/React-Starwars'> View code</a>
             </p>
+            <br></br>
             <div className='container'>
               {swProject.map((item, index) => (
                 <div key={index} className='info-box'>{item}</div>

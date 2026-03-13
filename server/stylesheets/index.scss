@@ -123,8 +123,8 @@ span {
 
 .thumbnail {
   float: left;
-  max-width: 70%;
-  max-height: 70%;
+  max-width: 90%;
+  max-height: 90%;
   margin: 0 auto;
 }
 
@@ -155,8 +155,6 @@ iframe {
 }
 
 .description {
-  @include underline;
-  background-color: $color-ltorange;
   padding: 1rem;
 }
 
@@ -168,6 +166,7 @@ footer {
   margin: 0 auto;
   text-align: center;
   background-color: #000000;
+  padding: 10px 10px;
 }
 
 .social {
