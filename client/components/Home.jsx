@@ -16,7 +16,7 @@ const Home = () => {
           <hr></hr>
           <br></br>
           <p>
-            Technically proficient IT professional with 3 years of experience in tech support and system administration. Skilled in troubleshooting hardware and software issues, optimizing system performance, and implementing solutions that enhance user experience. Strong communicator with a background in customer service, sales, and automotive technology, enabling effective problem-solving and client interactions. Passionate about continuous learning, staying up to date with industry trends, and leveraging the principles of kaizen for ongoing skill development.
+            IT professional with three years of experience in tech support. Skilled in troubleshooting hardware and software issues, optimizing system performance, and implementing solutions that enhance user experience. Five years of experience in sales and tech, immigration, FMCG, automotive.
           </p>
         </main>
       </Bounce>
